@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    
+    
+}
+.blog{
+    height: 500px;
+    width: 336px;
+    padding: 24px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#top{
+    border-radius: 20px;
+}
+
+#learning{
+    height: 27px;
+    width:90px;
+    font-weight: 750;
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 20px;
+}
+
+#publish{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+h2{
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+    transition: color 0.2s;
+}
+
+#active:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+
+}
+
+#paragraph{
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.profile{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+}
+
+#avatar{
+    background-color: hsl(0, 0%, 100%);
+    display: inline-block;
+}
+
+#name{
+    background-color: hsl(0, 0%, 100%);
+    font-weight: 795;
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 375px) {
+    .blog{
+        width: auto;
+    }
+}
